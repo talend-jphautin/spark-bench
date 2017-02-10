@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-package src.main.scala
-
 import java.net.ServerSocket
 import java.io.PrintWriter
 import util.Random

@@ -23,15 +23,10 @@
  */
 
 package src.main.scala
-import org.apache.log4j.Logger
-import org.apache.log4j.Level
-import org.apache.spark.{SparkContext,SparkConf, Logging}
-import org.apache.spark.SparkContext._
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark.graphx._
-import org.apache.spark.graphx.lib._
-import org.apache.spark.graphx.util.GraphGenerators
-import org.apache.spark.rdd._
 import org.apache.spark.storage.StorageLevel
+import org.apache.spark.{SparkConf, SparkContext}
 
 
 object PregelOperationApp {

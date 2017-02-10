@@ -15,20 +15,16 @@
  * limitations under the License.
  */
 
-package src.main.scala
 import org.apache.log4j.Logger
 import org.apache.log4j.Level
 import org.apache.spark.rdd.RDD
-import org.apache.spark.{SparkContext,SparkConf, Logging}
+import org.apache.spark.{SparkContext,SparkConf}
 import org.apache.spark.mllib.feature.HashingTF
 import org.apache.spark.mllib.feature.IDF
 import org.apache.spark.mllib.linalg.Vector
 import scala.util.Random
 import org.apache.spark.mllib.regression.LabeledPoint
-import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.storage.StorageLevel
-
-
 
 
  object DocToTFIDF {

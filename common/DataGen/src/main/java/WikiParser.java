@@ -8,7 +8,6 @@
  *
  * @author minli
  */
-package src.main.java;
 import edu.jhu.nlp.wikipedia.*;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
